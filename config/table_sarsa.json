@@ -1,0 +1,20 @@
+{
+    "save_dir": "./output/final_fixgrid10_02/", 
+    "save_epoch": 100, 
+    "function_type": "Table", 
+    "function": {
+        "function": "Table", 
+        "grid": [10, 10], 
+        "lambda": false, 
+        "lr": 0.1
+    }, 
+    "train":{
+        "num_trace": 1000,
+        "max_step": 10000,
+        "step_size": 1,
+        "base_lr": 0.1,
+        "lr_step": 1000,
+        "random_rate": 0.2,
+        "fix_start": true
+    }
+}

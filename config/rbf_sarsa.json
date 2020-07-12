@@ -1,0 +1,21 @@
+{
+    "save_dir": "./output/final_rbfrand01_ep2/",
+    "save_epoch": 100,
+    "function_type": "RBF",
+    "function": {
+        "function": "RBF",
+        "bins": 10,
+        "lambda": false,
+        "var": 0.1,
+        "lr": 0.001
+    },
+    "train":{
+        "num_trace": 1000,
+        "max_step": 10000,
+        "step_size": 1,
+        "base_lr": 0.001,
+        "lr_step": 1000,
+        "random_rate": 0.2,
+        "fix_start": false
+    }
+}
